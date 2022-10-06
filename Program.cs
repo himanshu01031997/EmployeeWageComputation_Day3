@@ -8,7 +8,8 @@
             //     DailyWages.Wages();
             // ParttimeEmp.Wages();
             // SwitchCase.Wages();
-            MonthlyWages.wages();
+            // MonthlyWages.wages();
+            MaximumHr.wages();
         }
     }
 }
