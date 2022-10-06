@@ -6,7 +6,8 @@
         {
             //Console.WriteLine("Welcome to Employee Wage Computation");
             //     DailyWages.Wages();
-            ParttimeEmp.Wages();
+            // ParttimeEmp.Wages();
+            SwitchCase.Wages();
         }
     }
 }
