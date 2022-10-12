@@ -9,7 +9,9 @@
             // ParttimeEmp.Wages();
             // SwitchCase.Wages();
             // MonthlyWages.wages();
-            MaximumHr.wages();
+            //  MaximumHr.wages();
+            MaximumHr MHr = new MaximumHr();
+            MHr.wages();
         }
     }
 }

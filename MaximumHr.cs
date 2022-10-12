@@ -7,19 +7,19 @@ using System.Threading.Tasks;
 namespace EmployeeWageComputation
 {
 
-    public static class MaximumHr
+    public  class MaximumHr
     {
 
 
         // public static int ispresent = 1;
-        public static int WAGE_PER_HR = 20;
+        public  int WAGE_PER_HR = 20;
         public const int FULL_TIME = 1;
         public const int PART_TIME = 2;
         public const int ABSENT = 0;
         public const int NumofWorkingDay = 20;
         public const int Maximum_Hr = 100;
 
-        public static void wages()
+        public  void wages()
         {
             //variable
             int emphr = 0;
