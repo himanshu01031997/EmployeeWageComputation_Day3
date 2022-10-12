@@ -4,19 +4,14 @@
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Welcome to Employee Wage Computation");
-            //     DailyWages.Wages();
-            // ParttimeEmp.Wages();
-            // SwitchCase.Wages();
-            // MonthlyWages.wages();
-            //  MaximumHr.wages();
-            //MaximumHr MHr = new MaximumHr();
-            //MHr.wages();
-            MultipleCompany company1 = new MultipleCompany();
-            company1.wages("dmart", 10, 15, 40);
-            MultipleCompany company2 = new MultipleCompany();
-            company2.wages("bigbazar", 12, 10, 30);
+            EmpWageBuilderArray empWageBuilderArray = new EmpWageBuilderArray();
 
+            empWageBuilderArray.addCompanyEmpWage("DMart", 20, 2, 10);
+            empWageBuilderArray.addCompanyEmpWage("Reilance", 10, 4, 20);
+
+            empWageBuilderArray.ComputeWage();
         }
+
+        
     }
 }
